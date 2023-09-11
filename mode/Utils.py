@@ -77,11 +77,3 @@ def getRecord(path):
 #         return f"MessageType: {self.MessageType}, SchemaVersion: {self.SchemaVersion}, SessionId: {self.SessionId}, CreatedDate: {self.CreatedDate}, SequenceNumber: {self.SequenceNumber}, PayloadLength: {self.PayloadLength}, Payload: {self.Payload}"
 #
 
-
-if __name__ == '__main__':
-    a = getRecord("/Users/amazecrow/PycharmProjects/ass13tant/data/codes.txt")
-    # p = {}
-    # for i in a:
-    #     p[i[0]] = i[1]
-
-    print(a)
