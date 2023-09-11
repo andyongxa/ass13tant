@@ -21,7 +21,8 @@ https://ram.console.aliyun.com/policies/new
         "ecs:DeleteActivation",
         "ecs:DeregisterManagedInstance",
         "ecs:CreateActivation",
-        "ecs:DisableActivation"
+        "ecs:DisableActivation",
+        "ecs:StartTerminalSession"
       ],
       "Resource": "*"
     }
